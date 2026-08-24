@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Auto o colectivo? Mi mes real en plata y tiempo</title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #2C3E50;
+      line-height: 1.7;
+      background: #fafafa;
+    }
+    header {
+      text-align: center;
+      border-bottom: 3px solid #C0392B;
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 8px;
+      color: #2C3E50;
+    }
+    h1 .rojo { color: #C0392B; }
+    .subtitulo {
+      font-size: 1.1em;
+      color: #7f8c8d;
+      font-style: italic;
+    }
+    .autor {
+      font-size: 0.9em;
+      color: #95a5a6;
+      margin-top: 12px;
+    }
+    section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 28px 32px;
+      margin-bottom: 36px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    h2 {
+      color: #C0392B;
+      font-size: 1.5em;
+      border-left: 4px solid #C0392B;
+      padding-left: 12px;
+      margin-top: 0;
+    }
+    .intro p, .conclusion p { font-size: 1.08em; }
+    .grafico { margin: 20px 0; }
+    .pendiente {
+      background: #f4f4f4;
+      border: 2px dashed #bdc3c7;
+      border-radius: 8px;
+      padding: 40px;
+      text-align: center;
+      color: #95a5a6;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      color: #95a5a6;
+      font-size: 0.85em;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><span class="rojo">¿</span>Auto o colectivo<span class="rojo">?</span> 🚗🚌</h1>
+    <div class="subtitulo">Mi mes real en plata y tiempo</div>
+    <div class="autor">Un análisis de datos personales · Gonzalo Morini · Visualización de la Información</div>
+  </header>
+
+  <section class="intro">
+    <h2>Introducción</h2>
+    <p>Tengo auto y lo uso todos los días, pero nunca me había detenido a calcular cuánto me cuesta realmente, tanto en dinero como en tiempo. También surgió una pregunta: <strong>¿qué pasaría si realizara esos mismos viajes utilizando transporte público?, ¿me resultaría más conveniente?</strong></p>
+    <p>Durante julio de 2026 registré mis viajes utilizando el historial de Google Maps y anoté los gastos vinculados al uso del auto. A partir de estos datos, realicé una comparación entre ambas alternativas para analizar no solo el costo económico, sino también el tiempo involucrado en cada una.</p>
+    <p>Estos son los datos, sin maquillar. Al final del análisis, el veredicto.</p>
+  </section>
+
+  <section>
+    <h2>1 · ¿En qué se me va la plata del auto? 🤔</h2>
+    <p>Lo primero que quise saber: cuando pienso en "lo que gasto en el auto", pienso en nafta. Pero, ¿es realmente así?</p>
+    <div class="grafico">
+      <div style="min-height:319px" id="datawrapper-vis-HDceM"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/HDceM/embed.js" charset="utf-8" data-target="#datawrapper-vis-HDceM"></script><noscript><img src="https://datawrapper.dwcdn.net/HDceM/full.png" alt="Gráfico de barras con gastos mensuales del auto" /></noscript></div>
+    </div>
+    <p>La nafta es apenas una parte: el resto son <strong>costos ocultos</strong> (peaje, seguro, patente, mantenimiento) que uno no suele tener en cuenta.</p>
+  </section>
+
+  <section>
+    <h2>2 · ¿Cómo se movió mi mes, día a día? 🚗</h2>
+    <p>Así se distribuyeron mis kilómetros a lo largo del mes.</p>
+    <div class="pendiente">Acá va el streamgraph de RAWGraphs (kilómetros por día) — próximamente</div>
+  </section>
+
+  <section>
+    <h2>3 · ¿Y si lo hubiera hecho todo en colectivo? 🚌</h2>
+    <p>La comparación directa: mismos trayectos, dos medios distintos.</p>
+    <div class="pendiente">Acá va el gráfico de Flourish (auto vs colectivo) — próximamente</div>
+  </section>
+
+  <section>
+    <h2>4 · Plata vs tiempo: ¿qué me conviene? ⏱️</h2>
+    <p>El cruce final: el auto cuesta más pero ahorra tiempo; el colectivo es barato pero lento.</p>
+    <div class="pendiente">Acá va el gráfico de Tableau (plata vs tiempo) — próximamente</div>
+  </section>
+
+  <section class="conclusion">
+    <h2>El veredicto</h2>
+    <p><em>(A completar cuando estén los 4 gráficos: tu conclusión final sobre si te conviene el auto o el colectivo, con los números que lo respaldan.)</em></p>
+  </section>
+
+  <footer>
+    Trabajo Práctico · Visualización de Datos Personales · 2026<br>
+    Datos propios registrados durante julio de 2026
+  </footer>
+
+</body>
+</html>
